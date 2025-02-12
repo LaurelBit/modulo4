@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #ffe4e1; /* Fondo rosa claro */
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    background: #fff0f5; /* Fondo más suave */
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn {
+    background: #ff69b4; /* Botón rosa fuerte */
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff1493;
+    transform: scale(1.1);
+}
+
+input, select {
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.alert {
+    font-size: 1.2em;
+    background: #ffb6c1;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
