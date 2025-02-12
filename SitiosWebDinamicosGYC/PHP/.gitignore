@@ -1,5 +1,0 @@
-# Ignorar archivos temporales y configuraciones
-.DS_Store
-node_modules/
-*.log
-*.tmp
