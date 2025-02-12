@@ -1,0 +1,3 @@
+Copiar toda la carpeta como la siguiente dirección:
+
+C:\xampp\htdocs\SitiosWebDinamicosGYC\Punto2
