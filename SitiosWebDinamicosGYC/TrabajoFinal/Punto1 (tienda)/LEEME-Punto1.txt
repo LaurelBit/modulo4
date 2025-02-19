@@ -1,0 +1,21 @@
+Consigna:
+1. Desarrollo de una tienda online dinámica uti,lizando nodejs y myssql ,(puede 
+utilizar el Trabajo Final del Modulo II ) o generar una nueva . 
+Objetivo Principal 
+Diseñar una web de tienda online dinámica utilizando nodejs que permita a los 
+usuarios explorar un catálogo dinámico de productos, al hacer click en el producto , 
+obtener detalles de cada uno.  
+CRUD de Productos 
+Se debe generar una interfaz para hacer la gestionde productos que permita hacer 
+el CRUD de la tabla productos con los campos(id tinyint, nombre  vachar(50) , 
+precio decimarl(9,2), imagen varchar(30),detalle varchar(255) . aclarar que en 
+imagen esta el nombre de archivo. (se pueden utilizar imágenes predefinidas)
+
+
+Para funcionamiento de este ejemplo:
+
+1. Copiar y pegar a la siguiente dirección TODA la carpeta Punto1
+2. Importar el archivo de la carpeta Backup.
+3. En VS en dirección de la carpeta Punto1, ir a la terminal y copiar el siguiente código: node app.js
+4. Abrir en el navegador:
+http://localhost:3000/ → Ahora muestra el catálogo.

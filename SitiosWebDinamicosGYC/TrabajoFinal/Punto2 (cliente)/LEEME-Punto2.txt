@@ -1,0 +1,14 @@
+Consigna:
+2. Crear un CRUD de la tabla clientes (id,ci,nombres,apellidos,celular,correo) , 
+Utilizando una base de datos MongoDB. 
+
+
+Para funcionamiento de este ejemplo:
+
+1. Copiar y pegar a la siguiente dirección TODA la carpeta Punto2
+E:\Diplomado Web\Modulo 4\SitiosWebDinamicosGYC\TrabajoFinal\Punto2
+
+2. Importar el archivo de la carpeta Backup.
+3. En VS en dirección de la carpeta Punto1, ir a la terminal y copiar el siguiente código: node app.js
+4. Abrir en el navegador:
+http://localhost:3000/ → Ahora muestra el catálogo.

@@ -1,0 +1,42 @@
+Esta carpeta se creó en el escritorio:
+
+C:\Users\Laurel\Desktop\modulo4\SitiosWebDinamicosGYC
+
+Se encuentra clonado en el GitHub las dos subcarpetas Punto1 y Punto2
+
+
+
+Carpeta Punto2 se debe crear en la siguiente dirección para funcionamiento:
+
+C:\xampp\htdocs\SitiosWebDinamicosGYC\Punto2
+
+
+Crear BD: CREATE DATABASE bd_agenda;
+Selecciona la base de datos bd_agenda y crea la tabla agenda con los campos especificados.
+CREATE TABLE agenda (
+  id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+  nombres VARCHAR(40),
+  apellidos VARCHAR(30),
+  direccion VARCHAR(100),
+  telefono INT
+);
+
+
+
+ESTRUCTURA DE ARCHIVOS Y CARPETAS
+Punto2/
+├── public/
+│   ├── styles/
+│   └── scripts/
+├── views/
+│   ├── index.ejs
+│   ├── add.ejs
+│   └── edit.ejs
+├── controllers/
+│   └── agendaController.js
+├── models/
+│   └── agendaModel.js
+├── config/
+│   └── db.js
+├── package.json
+└── app.js
